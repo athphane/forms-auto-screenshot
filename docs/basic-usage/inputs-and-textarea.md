@@ -14,6 +14,8 @@ The minimum requirement is the `name` attribute.
 <x-forms::input name="company_name" />
 ```
 
+![Text Input Component](../images/text-input.jpg)
+
 ## Labels & Layout
 
 You have full control over how labels are rendered.
