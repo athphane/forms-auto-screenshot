@@ -1,0 +1,30 @@
+@import '../mixins';
+
+// Custom Variable Overrides
+@import 'inc/variables';
+
+// Bootstrap Variables
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/utilities';
+
+// Custom Utility Overrides
+@import 'inc/utilities';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Load partials for CSS Overrides
+@import 'inc/fonts';
+@import 'inc/animations';
+@import 'inc/layout';
+@import 'inc/forms';
+@import 'inc/select2';
+@import 'inc/sweetalert2';
+@import 'inc/flatpickr';
+@import 'inc/fileinput';
+@import 'inc/maps';
+@import 'inc/preloader';
+@import 'inc/custom-utilities';

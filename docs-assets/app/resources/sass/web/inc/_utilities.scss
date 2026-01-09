@@ -1,0 +1,49 @@
+/**
+Utilities
+ */
+
+$utilities: map-merge(
+        $utilities,
+        (
+            'color': map-merge(
+                    map-get($utilities, 'color'),
+                    (
+                        values: map-merge(
+                                map-get(map-get($utilities, 'color'), 'values'),
+                                (
+                                    "gray-100": $gray-100,
+                                    "gray-200": $gray-200,
+                                    "gray-300": $gray-300,
+                                    "gray-400": $gray-400,
+                                    "gray-500": $gray-500,
+                                    "gray-600": $gray-600,
+                                    "gray-700": $gray-700,
+                                    "gray-800": $gray-800,
+                                    "gray-900": $gray-900
+                                ),
+                        ),
+                    ),
+            ),
+
+            'background-color': map-merge(
+                    map-get($utilities, 'background-color'),
+                    (
+                        values: map-merge(
+                                map-get(map-get($utilities, 'background-color'), 'values'),
+                                (
+                                    "gray-100": $gray-100,
+                                    "gray-200": $gray-200,
+                                    "gray-300": $gray-300,
+                                    "gray-400": $gray-400,
+                                    "gray-500": $gray-500,
+                                    "gray-600": $gray-600,
+                                    "gray-700": $gray-700,
+                                    "gray-800": $gray-800,
+                                    "gray-900": $gray-900
+                                ),
+                        ),
+                    ),
+            ),
+        )
+);
+

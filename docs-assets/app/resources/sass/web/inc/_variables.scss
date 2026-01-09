@@ -1,0 +1,22 @@
+@import '../../variables';
+
+@import '@javaabu/js-utilities/src/scss/bootstrap-5/variables';
+
+// Put Bootstrap overrides here
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary: $primary-color;
+
+$footer-height: 0;
+$font-family-icon: 'Font Awesome 6 Pro';

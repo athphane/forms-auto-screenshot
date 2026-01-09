@@ -1,0 +1,12 @@
+/**
+Mixins
+ */
+
+@mixin animate {
+    transition: all 0.5s ease;
+}
+
+@mixin gradient {
+    background-color: $primary;
+    background: linear-gradient(45deg, $primary 0%, $accent 100%);
+}

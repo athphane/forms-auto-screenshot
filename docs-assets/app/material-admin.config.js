@@ -1,0 +1,46 @@
+import copy from 'rollup-plugin-copy'
+
+export default {
+    input: 'empty.js',
+    plugins: [
+        copy({
+            targets: [
+                { src: 'node_modules/animate.css/*', dest: 'public/vendors/animate.css' },
+                { src: 'node_modules/autosize/dist/*', dest: 'public/vendors/autosize' },
+                { src: 'node_modules/bootstrap-colorpicker/dist/*', dest: 'public/vendors/bootstrap-colorpicker' },
+                { src: 'node_modules/clamp.js/*', dest: 'public/vendors/clamp.js' },
+                { src: 'node_modules/datatables.net/*', dest: 'public/vendors/datatables.net' },
+                { src: 'node_modules/datatables.net-buttons/*', dest: 'public/vendors/datatables.net-buttons' },
+                { src: 'node_modules/datatables.net-buttons-dt/*', dest: 'public/vendors/datatables.net-buttons-dt' },
+                { src: 'node_modules/dropzone/dist/*', dest: 'public/vendors/dropzone' },
+                { src: 'node_modules/flatpickr/dist/*', dest: 'public/vendors/flatpickr' },
+                { src: 'node_modules/flot/dist/*', dest: 'public/vendors/flot' },
+                { src: 'node_modules/flot.curvedlines/*', dest: 'public/vendors/flot.curvedlines' },
+                { src: 'node_modules/flot-orderbars/*', dest: 'public/vendors/flot-orderbars' },
+                { src: 'node_modules/fullcalendar/*', dest: 'public/vendors/fullcalendar' },
+                { src: 'node_modules/jqtree/*', dest: 'public/vendors/jqtree' },
+                { src: 'node_modules/jquery-mask-plugin/dist/*', dest: 'public/vendors/jquery-mask-plugin' },
+                { src: 'node_modules/jquery-scroll-lock/dist/*', dest: 'public/vendors/jquery-scroll-lock' },
+                { src: 'node_modules/jquery-text-counter/*', dest: 'public/vendors/jquery-text-counter' },
+                { src: 'node_modules/easy-pie-chart/dist/*', dest: 'public/vendors/easy-pie-chart' },
+                { src: 'node_modules/jquery.scrollbar/*', dest: 'public/vendors/jquery.scrollbar' },
+                { src: 'node_modules/jqvmap/dist/*', dest: 'public/vendors/jqvmap' },
+                { src: 'node_modules/jszip/dist/*', dest: 'public/vendors/jszip' },
+                { src: 'node_modules/lightgallery/dist/*', dest: 'public/vendors/lightgallery' },
+                { src: 'node_modules/material-design-iconic-font/dist/*', dest: 'public/vendors/material-design-iconic-font' },
+                { src: 'node_modules/moment/dist/*', dest: 'public/vendors/moment' },
+                { src: 'node_modules/nouislider/distribute/*', dest: 'public/vendors/nouislider' },
+                { src: 'node_modules/rateyo/*', dest: 'public/vendors/rateyo' },
+                { src: 'node_modules/bootstrap-notify/*', dest: 'public/vendors/bootstrap-notify' },
+                { src: 'node_modules/salvattore/dist/*', dest: 'public/vendors/salvattore' },
+                { src: 'node_modules/select2/dist/*', dest: 'public/vendors/select2' },
+                { src: 'node_modules/sweetalert2/dist/*', dest: 'public/vendors/sweetalert2' },
+                { src: 'node_modules/trumbowyg/dist/*', dest: 'public/vendors/trumbowyg' },
+                { src: 'node_modules/tinymce/*', dest: 'public/vendors/tinymce' },
+                { src: 'node_modules/clipboard/dist/*', dest: 'public/vendors/clipboard' },
+                { src: 'node_modules/chart.js/dist/*', dest: 'public/vendors/chart.js' },
+                { src: 'node_modules/jquery-sparkline/*', dest: 'public/vendors/jquery-sparkline' },
+            ]
+        }),
+    ],
+};

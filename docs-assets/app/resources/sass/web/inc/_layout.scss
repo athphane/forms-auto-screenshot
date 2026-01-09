@@ -1,0 +1,19 @@
+/**
+Layout
+ */
+
+#wrapper {
+    min-height: calc(100vh - #{$footer-height});
+}
+
+#wrapper.full-height,
+.full-height {
+    min-height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
